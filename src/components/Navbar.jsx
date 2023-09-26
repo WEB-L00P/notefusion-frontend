@@ -1,6 +1,18 @@
+import toast, { Toaster } from "react-hot-toast";
+
 const Navbar = () => {
+  const notify = () =>
+    toast("You clicked profile", {
+      icon: "👏",
+      style: {
+        borderRadius: "10px",
+        background: "#333",
+        color: "#fff",
+      },
+    });
   return (
     <>
+      <Toaster />
       <div className="navbar py-2 flex justify-between items-center">
         <div className="hamnurgure  hover:rounded-full">
           {/* <div className="absolute -z-[1px] w-[25px] h-[25px] hover:text-black hover:bg-white hover:rounded-full"></div> */}
@@ -31,6 +43,7 @@ const Navbar = () => {
         </div>
         <div className="avatar">
           <img
+            onClick={notify}
             src="../../public/user.jpg"
             alt="avatar"
             className="w-11 rounded-full hover:animate-spin"
