@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Note from "./components/Note";
+import AddBar from "./components/AddBar";
 import "./App.css";
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="px-4 bg-[#272829]">
         <Navbar />
         <hr />
+        <AddBar />
         <div className="notes py-5 grid grid-cols-2 gap-3 row-auto">
           <Note
             title="Hello There"
