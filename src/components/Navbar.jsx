@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
         <div>
           <img
-            src="../../public/logo.png"
+            src="/logo.png"
             alt="logo"
             className="logo hover:animate-pulse"
           />
