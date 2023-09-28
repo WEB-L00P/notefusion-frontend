@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="avatar">
           <img
             onClick={notify}
-            src="../../public/user.jpg"
+            src="/user.jpg"
             alt="avatar"
             className="w-11 rounded-full hover:animate-spin"
           />
