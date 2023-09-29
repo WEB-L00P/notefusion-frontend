@@ -15,7 +15,6 @@ const Navbar = () => {
       <Toaster />
       <div className="navbar py-2 flex justify-between items-center">
         <div className="hamnurgure  hover:rounded-full">
-          {/* <div className="absolute -z-[1px] w-[25px] h-[25px] hover:text-black hover:bg-white hover:rounded-full"></div> */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="25px"
